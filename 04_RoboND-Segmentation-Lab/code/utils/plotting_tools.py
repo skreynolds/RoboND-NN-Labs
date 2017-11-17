@@ -32,8 +32,10 @@ import glob
 import numpy as np
 import matplotlib.patches as mpatches 
 import matplotlib.pyplot as plt
+
 #from tensorflow.contrib.keras.python import keras
-import keras
+from tensorflow.python import keras
+
 from scipy import misc
 
 def make_dir_if_not_exist(path):
